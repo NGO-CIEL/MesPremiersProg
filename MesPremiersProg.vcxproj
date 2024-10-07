@@ -142,7 +142,14 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="caisse.cpp" />
+    <ClCompile Include="caraASCII.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tableASCII.cpp" />
+    <ClCompile Include="telephone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FonctionProg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
